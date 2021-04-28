@@ -80,7 +80,7 @@ const AboutPage = () => (
         <div className="Content">
           <div className="SectionTitle">Experience</div>
           <ResumeItem
-            MyRole="Digital Product Designer, UX"
+            MyRole="Senior UX Designer"
             Workplace="Antler"
             Duration="2019/12 &#x2013; ongoing"
             City="Sydney, Australia"
