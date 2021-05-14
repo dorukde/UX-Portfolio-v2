@@ -146,7 +146,7 @@ const keyflowBPage = props => (
             Prototype (Staging)
           </div>
           <div className="Process">
-            <strong>Test-Produce-Evaluate:</strong> User Testing (individual
+            <strong>Test-Evaluate:</strong> User Testing (individual
             &amp; groups), Experience Sampling, Field (Feature) Testing,
             Functional Testing, Testing &amp; Bug Reporting (JIRA)
           </div>
@@ -204,7 +204,7 @@ const keyflowBPage = props => (
             alt="Keyflow Business - Web: Marketing Events"
           />
           <HText1
-            Header1="Test - Produce - Evaluate"
+            Header1="Test - Evaluate"
             Text1="
             At later stages, Keyflow Business has gone through a complete visual re-design with the introduction of a new pricing-model. Larger-sprints in such agile environment require end-to-end testing in staging environment. Internal testing involved multiple team-members testing event creation, ticket scanning and checking-in guests. We also had the chance to run closed-events in collaboration with Absoluit and Marshall where we could work with our focus-groups in a real-venue before the release. Keyflow product has over 200 screens/states accordingly, and inter-screen prototypes were built on inVision, in addition to documentation prepared for relevant stakeholders. Micro-interactions in each screen were prototyped using Principle App."
           />

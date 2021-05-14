@@ -132,7 +132,7 @@ const skakPage = props => (
             Button (flic) &amp; Notifications (trucks)
           </div>
           <div className="Process">
-            <strong>Test-Produce-Evaluate:</strong> User Testing (individual
+            <strong>Test-Evaluate:</strong> User Testing (individual
             &amp; groups), Experience Sampling, Field (Feature) Testing,
             Functional Testing
           </div>
@@ -181,7 +181,7 @@ const skakPage = props => (
             alt="Ecosystem for Street-Food"
           />
           <HText1
-            Header1="Test - Produce - Evaluate"
+            Header1="Test - Evaluate"
             Text1="Field tests of Streetkäk have improved agile-cooking, making it simple to handle crisis situations such as 'sold-out' or 'cancelled-order' and made communication easier. Final run of field-tests has taken place in Way Out West festival in Gothenburg, Sweden before release. The pre-released versions were tested out at a pop-up food-court where discounts, iOS &amp; Android and web products were tested. User-experience, onboarding and bug-fixing were made possibly by final field tests. The development stage has been completed with two consults and one internal team-member, where a part of the work has been conducted remotely. Testing, data collection and decision of agile sprint-scopes have been challenges that our team had to solve until the final release."
           />
           <br />

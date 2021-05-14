@@ -141,7 +141,7 @@ const strafePage = props => (
             Prototype (Staging)
           </div>
           <div className="Process">
-            <strong>Test-Produce-Evaluate:</strong> User Testing (individuals),
+            <strong>Test-Evaluate:</strong> User Testing (individuals),
             Field (Feature) Testing, Functional Testing, Testing &amp; Bug
             Reporting
           </div>
@@ -186,7 +186,7 @@ const strafePage = props => (
             alt="Strafe Design: Workflow"
           />
           <HText1
-            Header1="Test - Produce - Evaluate"
+            Header1="Test - Evaluate"
             Text1="Interactive high-fidelity flow diagrams (built by Sketch App itself) form the initial and the basic prototyping of different user-states. However, discovery of new features and micro-interactions required more specificity and higher-fidelity for testing and presentation purposes. Discovery prototypes were built using Principle App to compare possible mechanisms of pre-bracket predictions. Strafe App has 2 native mobile applications (iOS &amp; Android) and I had been available to support the development team during development-phase with questions or when modifications were required. Internal testing includes testing of both applications on staging environment and all platforms have the same feature-set and visual style aligned with relevant design guidelines. Evaluation and testing of the product features is a continuous process, which involves a focus-group for user-testing. Here are some of the images &amp; prototypes built during the discovery phase of new features:           
             "
           />

@@ -145,7 +145,7 @@ const keyflowPage = props => (
             Prototype (Staging)
           </div>
           <div className="Process">
-            <strong>Test-Produce-Evaluate:</strong> User Testing (individual
+            <strong>Test-Evaluate:</strong> User Testing (individual
             &amp; groups), Experience Sampling, Field (Feature) Testing,
             Functional Testing, Testing &amp; Bug Reporting (JIRA)
           </div>
@@ -197,7 +197,7 @@ const keyflowPage = props => (
             alt="Keyflow App - Flow Diagram"
           />
           <HText1
-            Header1="Test - Produce - Evaluate"
+            Header1="Test - Evaluate"
             Text1="Testing of new-releases at Keyflow started with internal-testing on the staging environment where edge-cases were continuously created, and early bugs were reported. Further field-tests took place in person during office-hours and nightlife events. Major features such as RSVP or QR-code tickets required field-testing in event conditions, where a doorman, an event manager and number of guests were required. Keyflow team had the chance to collaborate with brands like Absolut, Marshall, Peroni and Universal Studios in order to host nightlife professionals where feature-tests were held to gain meaningful insights and user-feedbacks from professionals. Handling of invitations, listing of events and intrusiveness of advertisements were prototyped in Principle App for micro-interactions. 
             "
           />
