@@ -103,7 +103,7 @@ const otherWorks = props => (
           <HText1
             Header1="Sur+++ – Wearable Interactions"
             Text1="
-            Sur+++ Labour Bag is a speculative and a humorous interactive wearable that questions the value of a designer in the gig economy. I have designed and produced the bag to measure cultural, economic, symbolic and social capital of myself through sensors. (Adafruit, Arduino, MQTT, GPS, APIs, Wearables) and tested "
+            Sur+++ Labour Bag is a speculative and a humorous interactive wearable that questions the value of a designer in the gig economy. I have designed and produced the bag to measure cultural, economic, symbolic and social capital of myself through sensors. (Adafruit, Arduino, MQTT, GPS, APIs, Wearables) and tested the results in various parts of Sydney, NSW."
           />{' '}
           <br />
           <Img
