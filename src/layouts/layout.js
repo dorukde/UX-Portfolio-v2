@@ -59,6 +59,10 @@ const Layout = ({ children, data, location }) => (
             location.pathname === '/strafe') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
           )}
+          {(location.pathname === '/antler/' ||
+            location.pathname === '/antler') && (
+            <Header3 siteTitle={data.site.siteMetadata.title} />
+          )}
           {(location.pathname === '/keyflow/' ||
             location.pathname === '/keyflow') && (
             <Header3 siteTitle={data.site.siteMetadata.title} />
