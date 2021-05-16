@@ -206,16 +206,14 @@ const antlerPage = props => (
             Text1="Another interesting design challenge was to advocate design thinking, usability and improve the UX maturity of the organisation and to introduce UX to founders. I have had the chance to run multiple online presentations and conduct coaching through workshops with founders – as well as writing documentation and an article for the curious founders."
           />
           <br />
-          <TextLi TextLi="A brief introduction to UX for the curious founders (D.Demircioglu)" />
           <div className="Process">
           "A brief introduction to UX Design for the curious minds" (D.Demircioglu)
           </div>
+          <br />
           <div className="Process">
           "Firetable in Use: How We Built Our Virtual Live Event Platform With Firestore and Firetable" (S.Alcantara) 
           </div>
           
-          <TextLi TextLi="Firetable in Use: How We Built Our Virtual Live Event Platform With Firestore and Firetable
- (S.Alcantara)" />
 
           <div className="BWrapper">
             <Link to="/otherworks">
