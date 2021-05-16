@@ -14,7 +14,6 @@ import BTextB from '../components/btn2'
 /*TESTING */
 
 import Scroller from '../components/scrollP'
-
 import kbvideo1 from '../images/kbusiness_1d.mp4'
 import kbvideo2 from '../images/kbusiness_1.mp4'
 
