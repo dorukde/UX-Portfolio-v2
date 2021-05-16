@@ -183,7 +183,6 @@ const antlerPage = props => (
           <TextLi TextLi="Visual consistency between founder experience on Founder and the team operations through Team Hub – through multi-contextual components structure." />
           <br />
           <div className="Process">
-          <span style="color:#393939">    
           <a
               href="https://zeroheight.com/3271b55b4"
               target="_blank"
@@ -191,7 +190,6 @@ const antlerPage = props => (
           ><u>  
           Antler "Platforms" Design System
           </u></a>
-          </span>
           </div>
           <Img
             fluid={props.data.antEight.childImageSharp.fluid}
@@ -218,7 +216,6 @@ const antlerPage = props => (
           />
           <br />
           <div className="Process">
-          <span style="color:#393939">    
           <a
               href="https://medium.com/antlerglobal/a-brief-introduction-to-ux-design-for-the-curious-minds-99e9a3489d1d"
               target="_blank"
@@ -226,18 +223,16 @@ const antlerPage = props => (
             ><u>  
           "A brief introduction to UX Design for the curious minds" (D.Demircioglu)
           </u></a>
-          </span>
           </div>
           <br />
           <div className="Process">
-          <span style="color:#393939">  
           <a
               href="https://medium.com/swlh/how-we-built-our-virtual-live-event-platform-with-firestore-and-firetable-8e3f1c2bae80"
               target="_blank"
               rel="noopener noreferrer"
             ><u>
           "Firetable in Use: How We Built Our Virtual Live Event Platform With Firestore and Firetable" (S.Alcantara) 
-          </u></a></span>
+          </u></a>
           </div>
           
 
