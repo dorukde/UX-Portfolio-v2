@@ -13,7 +13,7 @@ import BTextB from '../components/btn2'
 
 import Scroller from '../components/scrollP'
 
-const skakPage = props => (
+const antlerPage = props => (
   <div id="rect">
     <Scroller />
     <div id="HeroAbout2" className="HeroAbout">
