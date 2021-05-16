@@ -230,4 +230,5 @@ export const pageQuery = graphql`
     antSeven: file(relativePath: { eq: "sk7a.jpg" }) {
       ...fluidImage
   }
+}
 `
