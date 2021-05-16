@@ -128,7 +128,7 @@ const antlerPage = props => (
           <HText1
             Header1="Research: Founders &amp; Operations"
             Text1="User research process started with conducting interviews (1:1, remote) and facilitating co-design workshops with the founders and Antler team members to co-build personas, generate user insights and building a journey map of founders starting from their first contact with Antler – application to program."
-          />
+          /><br />
           <Img
             fluid={props.data.antFour.childImageSharp.fluid}
             alt="Founder Journey Map"
