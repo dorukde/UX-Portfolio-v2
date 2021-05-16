@@ -235,7 +235,6 @@ const antlerPage = props => (
           </u></a>
           </div>
           
-
           <div className="BWrapper">
             <Link to="/otherworks">
               <BTextA BHeader1="⟵ Previous" BText1="Other Works" />
