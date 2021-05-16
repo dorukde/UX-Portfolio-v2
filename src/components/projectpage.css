@@ -127,7 +127,7 @@ li {
     sans-serif;
   font-size: 1.1em;
   line-height: 1.5em;
-  color: #393939;
+  color: #393939 !important;
   -webkit-font-smoothing: antialiased;
   width: 75%;
 }
