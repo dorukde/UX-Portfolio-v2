@@ -25,8 +25,7 @@ const antlerPage = props => (
           </div>
           <div className="ProjectDescription">
           Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems. 
-
-          </div>
+          </div>{' '}
           <h1>
           <a
               href="https://www.antler.co"
