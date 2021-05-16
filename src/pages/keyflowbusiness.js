@@ -206,7 +206,7 @@ const keyflowBPage = props => (
           <HText1
             Header1="Test - Evaluate"
             Text1="
-            At later stages, Keyflow Business has gone through a complete visual re-design with the introduction of a new pricing-model. Larger-sprints in such agile environment require end-to-end testing in staging environment. Internal testing involved multiple team-members testing event creation, ticket scanning and checking-in guests. We also had the chance to run closed-events in collaboration with Absoluit and Marshall where we could work with our focus-groups in a real-venue before the release. Keyflow product has over 200 screens/states accordingly, and inter-screen prototypes were built on inVision, in addition to documentation prepared for relevant stakeholders. Micro-interactions in each screen were prototyped using Principle App."
+            At later stages, Keyflow Business has gone through a complete visual re-design with the introduction of a new pricing-model. Larger-sprints in such agile environment require end-to-end testing in staging environment. Internal testing involved multiple team-members testing event creation, ticket scanning and checking-in guests. We also had the chance to run closed-events in collaboration with Absolut and Marshall where we could work with our focus-groups in a real-venue before the release. Keyflow product has over 200 screens/states accordingly, and inter-screen prototypes were built on inVision, in addition to documentation prepared for relevant stakeholders. Micro-interactions in each screen were prototyped using Principle App."
           />
           <br />
           <div className="prototypes">
