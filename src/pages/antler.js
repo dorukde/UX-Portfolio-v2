@@ -187,7 +187,7 @@ const antlerPage = props => (
               href="https://zeroheight.com/3271b55b4"
               target="_blank"
               rel="noopener noreferrer"
-              style = "color: #393939;"><u>  
+              style = "color: #393939 !important;"><u>  
           Antler "Platforms" Design System
           </u></a>
           </div>
