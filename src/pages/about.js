@@ -33,8 +33,8 @@ const AboutPage = () => (
               🐨
             </span>
             <br />
-            focused on building inclusive &amp; accessible products.
-            <br />I am interested in solving problems through systems thinking, mixed methods, co-design, sustainability with a lean &amp; scalable approach. <br />I love funk, jazz, soul, my{' '}
+            focused on building inclusive &amp; accessible products.<br />
+            <br />I am interested in solving problems through systems thinking, mixed methods, co-design, sustainability to co-build scalable solutions. <br /><br />I love funk, jazz, soul, my{' '}
             <span role="img" aria-label="cat">
               🐈
             </span>
@@ -47,7 +47,7 @@ const AboutPage = () => (
           </h4>
           <br />
           <h4>
-            You can download my <a href="/Resume_DD.pdf"> Resume</a>
+            You can view and download my <a href="/Resume_DD.pdf"> Resume</a>
             <br />
             <br />
             Get in touch with me at
