@@ -38,7 +38,7 @@ const otherWorks = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Other Works</div>
+            <div className="ProjectName2">Personal Projects</div>
             <div className="ProjectDetail2">HCD, 3D, Print</div>
             <div className="ProjectDescription">
               My personal visual design projects - including UI, a short
@@ -50,6 +50,7 @@ const otherWorks = props => (
       </div>
       <div className="ContentW">
         <div className="Content">
+          
           <HText1
             Header1="Dimmer: Human Centred Design"
             Text1="
@@ -100,9 +101,25 @@ const otherWorks = props => (
             </div>
           </div>
           <HText1
+            Header1="Sur+++ – Wearable Interactions"
+            Text1="
+            Sur+++ Labour Bag is a speculative and a humorous interactive wearable that questions the value of a designer in the gig economy. I have designed and produced the bag to measure cultural, economic, symbolic and social capital of myself through sensors. (Adafruit, Arduino, MQTT, GPS, APIs, Wearables) and tested "
+          />{' '}
+          <br />
+          <Img
+            fluid={props.data.surPlus.childImageSharp.fluid}
+            alt="Surplus Bag – Wearable desgn"
+          />{' '}
+          <br />
+          <br />
+          <div className="DText">
+            <a href="/surplus.mp4">Watch video presentation (mp4)</a>
+          </div>
+
+          <HText1
             Header1="Design Guidebook: Digital (PDF)"
             Text1="
-            A pocket-sized design book to summarise and illustrate subjects I find interesting, about 'design' - School Assignment (UNSW), PDF, 12 Pages."
+            A practical pocket-sized design book to summarise and illustrate subjects I find interesting, about design. PDF, 12 Pages."
           />
           <br />
           <div className="DText">
@@ -308,6 +325,9 @@ export const pageQuery = graphql`
       ...fluidImage640
     }
     dimmerRender: file(relativePath: { eq: "dimmer1.jpg" }) {
+      ...fluidImage
+    }
+    surPlus: file(relativePath: { eq: "surplus.jpg" }) {
       ...fluidImage
     }
     dGuidebook: file(relativePath: { eq: "unsw_guidebook.jpg" }) {
