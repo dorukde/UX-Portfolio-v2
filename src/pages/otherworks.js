@@ -96,36 +96,6 @@ const otherWorks = props => (
             </div>
           </div>
           <HText1
-            Header1="Thomas Cook: UI Design"
-            Text1="
-            UI Design for the landing page of a campaign, including purchase flow elements and iconography - Consult Work, Sydney."
-          />
-          <div className="images">
-            <div className="protoImg">
-              <Img
-                fluid={props.data.thomasZero.childImageSharp.fluid}
-                alt="Thomas Cook: UI Design"
-              />
-            </div>
-            <div className="protoImg">
-              <Img
-                fluid={props.data.thomasTwo.childImageSharp.fluid}
-                alt="Thomas Cook: UI Design"
-              />
-            </div>
-            <div className="protoImg">
-              <Img
-                fluid={props.data.thomasThree.childImageSharp.fluid}
-                alt="Thomas Cook: UI Design"
-              />
-            </div>
-          </div>
-          <Img
-            fluid={props.data.thomasOne.childImageSharp.fluid}
-            alt="Thomas Cook: UI Design"
-          />
-          <br />
-          <HText1
             Header1="Design Guidebook: Digital (PDF)"
             Text1="
             A pocket-sized design book to summarise and illustrate subjects I find interesting, about 'design' - School Assignment (UNSW), PDF, 12 Pages."
@@ -262,7 +232,7 @@ const otherWorks = props => (
           <HText1
             Header1="#trusttheprocess"
             Text1="
-            'The Process' Joel Embiid (NBA Player from 76'ers): 3D-model is inspired by his recovery period &amp; personal journey in NBA."
+            'The Process' Joel Embiid (NBA Player from 76'ers): 3D-model is inspired by his recovery period &amp; personal journey in the NBA."
           />
           <br />
           <div className="wrapper800">
