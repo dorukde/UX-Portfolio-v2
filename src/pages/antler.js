@@ -187,8 +187,7 @@ const antlerPage = props => (
               href="https://zeroheight.com/3271b55b4"
               target="_blank"
               rel="noopener noreferrer"
-              color = "#393939"
-            ><u>  
+              style = "color: #393939;"><u>  
           Antler "Platforms" Design System
           </u></a>
           </div>
@@ -221,7 +220,7 @@ const antlerPage = props => (
               href="https://medium.com/antlerglobal/a-brief-introduction-to-ux-design-for-the-curious-minds-99e9a3489d1d"
               target="_blank"
               rel="noopener noreferrer"
-              color = "#393939"
+              style = "color: #393939;"
             ><u>  
           "A brief introduction to UX Design for the curious minds" (D.Demircioglu)
           </u></a>
@@ -232,7 +231,7 @@ const antlerPage = props => (
               href="https://medium.com/swlh/how-we-built-our-virtual-live-event-platform-with-firestore-and-firetable-8e3f1c2bae80"
               target="_blank"
               rel="noopener noreferrer"
-              color = "#393939"
+              style = "color: #393939;"
             ><u>
           "Firetable in Use: How We Built Our Virtual Live Event Platform With Firestore and Firetable" (S.Alcantara) 
           </u></a>
