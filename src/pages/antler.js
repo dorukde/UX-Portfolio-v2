@@ -205,7 +205,7 @@ const skakPage = props => (
   </div>
 )
 
-export default skakPage
+export default antlerPage
 
 export const pageQuery = graphql`
   query {
