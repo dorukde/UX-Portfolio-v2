@@ -34,7 +34,7 @@ const AboutPage = () => (
             </span>
             <br />
             focused on building inclusive &amp; accessible products.
-            <br /> <br />I love funk, jazz, soul, my{' '}
+            <br />I am interested in solving problems through systems thinking, mixed methods, co-design, sustainability with a lean &amp; scalable approach. <br />I love funk, jazz, soul, my{' '}
             <span role="img" aria-label="cat">
               🐈
             </span>
