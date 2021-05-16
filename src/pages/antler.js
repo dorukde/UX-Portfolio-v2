@@ -182,7 +182,7 @@ const antlerPage = props => (
           <TextLi TextLi="Expressive design system to reflect the visual language of the portfolio company brands (accessible colour palette for branded pages)" />
           <TextLi TextLi="Visual consistency between founder experience on Founder and the team operations through Team Hub – through multi-contextual components structure." />
           <br />
-          <div className="Process">
+          <div className="Process2">
           <a
               href="https://zeroheight.com/3271b55b4"
               target="_blank"
@@ -215,7 +215,7 @@ const antlerPage = props => (
             Text1="Another interesting design challenge was to advocate design thinking, usability and improve the UX maturity of the organisation and to introduce UX to founders. I have had the chance to run multiple online presentations and conduct coaching through workshops with founders – as well as writing documentation and an article for the curious founders."
           />
           <br />
-          <div className="Process">
+          <div className="Process2">
           <a
               href="https://medium.com/antlerglobal/a-brief-introduction-to-ux-design-for-the-curious-minds-99e9a3489d1d"
               target="_blank"
@@ -225,7 +225,7 @@ const antlerPage = props => (
           </u></a>
           </div>
           <br />
-          <div className="Process">
+          <div className="Process2">
           <a
               href="https://medium.com/swlh/how-we-built-our-virtual-live-event-platform-with-firestore-and-firetable-8e3f1c2bae80"
               target="_blank"
