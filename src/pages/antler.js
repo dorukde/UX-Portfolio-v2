@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { AiFillGithub, IoIosGlobe } from 'react-icons/fa'
+import { AiFillGithub} from 'react-icons/ai'
+import { IoIosGlobe} from 'react-icons/io'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
