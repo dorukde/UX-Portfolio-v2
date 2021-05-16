@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import { FaGooglePlay, FaApple } from 'react-icons/fa'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
+import '../components/header2.css'
 
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'

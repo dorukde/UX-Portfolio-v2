@@ -4,6 +4,7 @@ import { AiFillGithub} from 'react-icons/ai'
 import { IoIosGlobe} from 'react-icons/io'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
+import '../components/header2.css'
 
 /*TEXT COMPONENTS */
 import HText1 from '../components/text1'
@@ -234,16 +235,16 @@ export default antlerPage
 export const pageQuery = graphql`
   query {
     antOne: file(relativePath: { eq: "ant1.jpg" }) {
-      ...fluidImage2
+      ...fluidImage
     }
     antTwo: file(relativePath: { eq: "ant2.jpg" }) {
-      ...fluidImage2
+      ...fluidImage
     }
     antThree: file(relativePath: { eq: "ant3.jpg" }) {
-      ...fluidImage2
+      ...fluidImage
     }
     antFour: file(relativePath: { eq: "ant4.jpg" }) {
-      ...fluidImage2
+      ...fluidImage
     }
     antFive: file(relativePath: { eq: "ant5.jpg" }) {
       ...fluidImage
