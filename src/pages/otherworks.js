@@ -100,6 +100,8 @@ const otherWorks = props => (
               </video>
             </div>
           </div>
+          <br />
+          <br />
           <HText1
             Header1="Sur+++ – Wearable Interactions"
             Text1="
@@ -111,10 +113,11 @@ const otherWorks = props => (
             alt="Surplus Bag – Wearable desgn"
           />{' '}
           <br />
-          <br />
           <div className="DText">
             <a href="/surplus.mp4">Watch video presentation (mp4)</a>
           </div>
+          <br />
+          <br />
 
           <HText1
             Header1="Design Guidebook: Digital (PDF)"
@@ -132,6 +135,8 @@ const otherWorks = props => (
               alt="Design Guidebook:"
             />
           </a>
+          <br />
+          <br />
           <HText1
             Header1="Noluit: Branding"
             Text1="
@@ -151,6 +156,7 @@ const otherWorks = props => (
               alt="Noluit: Office Tools"
             />
           </div>
+          <br />          
           <br />
           <HText1
             Header1="Pat's Place: Branding"
@@ -168,6 +174,9 @@ const otherWorks = props => (
               alt="Pats Place - Images"
             />
           </div>
+          <br />
+          <br />
+
           <HText1
             Header1="Ikiz - Zoetic Sessions: Album Cover + Live Illustration"
             Text1="Album cover &amp; live-drawing performance for 'Ikiz - Zoetic Sessions' jazz project. 
@@ -205,6 +214,8 @@ const otherWorks = props => (
             </div>
           </div>
           <br />
+          <br />
+
           <HText1
             Header1="Karl Olandersson - Simple as That"
             Text1="
@@ -220,6 +231,9 @@ const otherWorks = props => (
               alt="Karl Olandersson: Simple as That"
             />
           </div>
+          <br />
+          <br />
+
           <HText1
             Header1="Petter Bergander Trio - The Grand Dance"
             Text1="
@@ -235,6 +249,9 @@ const otherWorks = props => (
               alt="Petter Bergander Trio: The Grand Dance Cover"
             />
           </div>
+          <br />
+          <br />
+
           <HText1
             Header1="#funkjazzsoul Posters: Print"
             Text1="
@@ -250,6 +267,9 @@ const otherWorks = props => (
               alt="#funkjazzsoul 2"
             />
           </div>
+          <br />
+          <br />
+
           <HText1
             Header1="#trusttheprocess"
             Text1="
@@ -263,6 +283,8 @@ const otherWorks = props => (
             />
           </div>
           <br />
+          <br />
+
           <HText1
             Header1="Hoodoo"
             Text1="
@@ -279,6 +301,8 @@ const otherWorks = props => (
             <source src={threedrender} />
           </video>
           <br />
+          <br />
+
           <HText1
             Header1="Koi Fish: 3D"
             Text1="
