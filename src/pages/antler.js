@@ -107,7 +107,6 @@ const antlerPage = props => (
           <TextLi TextLi="Founder's Hub (facilitating the acceleration program)" />
           <TextLi TextLi="Team Hub (running program and portfolio-operations at scale)" />          
           <TextLi TextLi="antler.co &amp; platform design system (managing the design process in collaboration with external contractors)" />
-          <br />          
           <br />
           <div className="SectionTitle2">The Process</div>
           <div className="Process">
@@ -176,6 +175,7 @@ const antlerPage = props => (
             Text1="Design principles of Antler platforms are built to be scalable, adaptive to multiple contexts (external web, founder requirements, internal operations), collaborative (welcoming every stakeholders expertise) and accessible in clarity of content, technical threshold and following WCAG 2.0 guidelines."
           />
           <Text2 Text2="Working with a lean engineering team through agile methodology requires having a well documented and maintained design system. Antler Platform’s design system is built, considering these constraints:" /> 
+          <br />
           <TextLi TextLi="Compatibility with the updates on external React Frameworks (React, styled-components, Gatsby, material)" />
           <TextLi TextLi="Adaptive complexity on UI components for multiple contexts" />
           <TextLi TextLi="Contextual and responsive visual grid (adaptive visual density and spacing on antler.co/platforms)" />
