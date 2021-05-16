@@ -7,6 +7,15 @@ import '../components/header.css'
 
 const IndexPage = () => (
   <div id="Works_id" className="Works">
+    <Link to="/antler">
+      <Project
+        ProjectName="Antler"
+        ProjectDetail="Product Design"
+        ProjectText1=" Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
+        ProjectText2="VIEW PROJECT >"
+      />
+    </Link>
+
     <Link to="/strafe">
       <Project
         ProjectName="Strafe"
