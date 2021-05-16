@@ -182,6 +182,11 @@ const antlerPage = props => (
           <TextLi TextLi="Expressive design system to reflect the visual language of the portfolio company brands (accessible colour palette for branded pages)" />
           <TextLi TextLi="Visual consistency between founder experience on Founder and the team operations through Team Hub – through multi-contextual components structure." />
           <br />
+          <Img
+            fluid={props.data.antEight.childImageSharp.fluid}
+            alt="Platform and design system"
+          />
+          <br />
           <HText1
             Header1="Test - Evaluate"
             Text1="Usability of the team operations, onboarding of founders and post-investment processes were evaluated through qualitative usability testing methods. Multiple prototyping tools and methods were used based on the usability testing scenario:"/><br />
@@ -230,26 +235,29 @@ export default antlerPage
 
 export const pageQuery = graphql`
   query {
-    antOne: file(relativePath: { eq: "sk1.jpg" }) {
+    antOne: file(relativePath: { eq: "ant1.jpg" }) {
       ...fluidImage2
     }
-    antTwo: file(relativePath: { eq: "sk2.jpg" }) {
+    antTwo: file(relativePath: { eq: "ant2.jpg" }) {
       ...fluidImage2
     }
-    antThree: file(relativePath: { eq: "sk3.jpg" }) {
+    antThree: file(relativePath: { eq: "ant3.jpg" }) {
       ...fluidImage2
     }
-    antFour: file(relativePath: { eq: "sk4.jpg" }) {
+    antFour: file(relativePath: { eq: "ant4.jpg" }) {
       ...fluidImage2
     }
-    antFive: file(relativePath: { eq: "sk5.jpg" }) {
+    antFive: file(relativePath: { eq: "ant5.jpg" }) {
       ...fluidImage
     }
-    antSix: file(relativePath: { eq: "sk6.jpg" }) {
+    antSix: file(relativePath: { eq: "ant6.jpg" }) {
       ...fluidImage
     }
-    antSeven: file(relativePath: { eq: "sk7a.jpg" }) {
+    antSeven: file(relativePath: { eq: "ant7.jpg" }) {
       ...fluidImage
   }
+  antEight: file(relativePath: { eq: "ant8.jpg" }) {
+    ...fluidImage
+}
 }
 `
