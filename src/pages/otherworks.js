@@ -20,12 +20,16 @@ import dvideo2 from '../images/dimm2.mp4'
 import dvideo3 from '../images/dimm3.mp4'
 import zvideo from '../images/zs2.mp4'
 import koivideo from '../images/koi.mp4'
+import threedrender from '../images/3drender.mp4'
+
 
 import dtvideo1 from '../images/poster/dimmer1.png'
 import dtvideo2 from '../images/poster/dimmer2.png'
 import dtvideo3 from '../images/poster/dimmer3.png'
 import ztvideo from '../images/poster/zs.png'
 import koitvideo from '../images/poster/koi.png'
+import threedrendert from '../images/poster/3drender.png'
+
 
 const otherWorks = props => (
   <div id="rect">
@@ -243,9 +247,25 @@ const otherWorks = props => (
           </div>
           <br />
           <HText1
+            Header1="Hoodoo"
+            Text1="
+            Sand-stone shelter 3D Render"
+          />
+          <br />
+          <video
+            poster={threedrendert}
+            playsinline
+            loop
+            muted
+            controls={['PlayPause', 'Seek', 'Time', 'Fullscreen']}
+          >
+            <source src={threedrender} />
+          </video>
+          <br />
+          <HText1
             Header1="Koi Fish: 3D"
             Text1="
-            'Low-Poly &amp; rigged koi fish animation study done for an independent movie project."
+            Low-Poly &amp; rigged koi fish animation study done for an independent movie project."
           />
           <br />
           <video
