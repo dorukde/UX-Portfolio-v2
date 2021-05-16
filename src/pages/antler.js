@@ -182,15 +182,18 @@ const antlerPage = props => (
           <TextLi TextLi="Expressive design system to reflect the visual language of the portfolio company brands (accessible colour palette for branded pages)" />
           <TextLi TextLi="Visual consistency between founder experience on Founder and the team operations through Team Hub – through multi-contextual components structure." />
           <br />
+          <br />
           <div className="Process2">
           <a
               href="https://zeroheight.com/3271b55b4"
               target="_blank"
               rel="noopener noreferrer"
           ><u>  
-          Antler "Platforms" Design System
+          Antler "Platforms" Design System ⟶
           </u></a>
           </div>
+          <br />
+          <br />
           <Img
             fluid={props.data.antEight.childImageSharp.fluid}
             alt="Platform and design system"
