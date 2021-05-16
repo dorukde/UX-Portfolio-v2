@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { FaGooglePlay, FaApple } from 'react-icons/fa'
+import { AiFillGithub, IoIosGlobe } from 'react-icons/fa'
 import '../components/projectpage.css'
 import Img from 'gatsby-image'
 
@@ -28,6 +28,21 @@ const antlerPage = props => (
 
           </div>
           <h1>
+          <a
+              href="https://www.antler.co"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {' '}
+              <IoIosGlobe />
+            </a>{' '}
+            <a
+              href="https://github.com/AntlerVC/firetable"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub />
+            </a>
             <div className="infobox">
               <div className="textbold">Platform:</div> Web{' '}
               <br />
