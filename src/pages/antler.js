@@ -209,38 +209,25 @@ export default skakPage
 
 export const pageQuery = graphql`
   query {
-    skOne: file(relativePath: { eq: "sk1.jpg" }) {
+    antOne: file(relativePath: { eq: "sk1.jpg" }) {
       ...fluidImage2
     }
-    skTwo: file(relativePath: { eq: "sk2.jpg" }) {
+    antTwo: file(relativePath: { eq: "sk2.jpg" }) {
       ...fluidImage2
     }
-    skThree: file(relativePath: { eq: "sk3.jpg" }) {
+    antThree: file(relativePath: { eq: "sk3.jpg" }) {
       ...fluidImage2
     }
-    skFour: file(relativePath: { eq: "sk4.jpg" }) {
+    antFour: file(relativePath: { eq: "sk4.jpg" }) {
       ...fluidImage2
     }
-    skFive: file(relativePath: { eq: "sk5.jpg" }) {
+    antFive: file(relativePath: { eq: "sk5.jpg" }) {
       ...fluidImage
     }
-    skSix: file(relativePath: { eq: "sk6.jpg" }) {
+    antSix: file(relativePath: { eq: "sk6.jpg" }) {
       ...fluidImage
     }
-    skSeven: file(relativePath: { eq: "sk7a.jpg" }) {
+    antSeven: file(relativePath: { eq: "sk7a.jpg" }) {
       ...fluidImage
-    }
-    skEight: file(relativePath: { eq: "sk8.jpg" }) {
-      ...fluidImage
-    }
-    skNine: file(relativePath: { eq: "sk9.jpg" }) {
-      ...fluidImage
-    }
-    skTen: file(relativePath: { eq: "sk10.jpg" }) {
-      ...fluidImage
-    }
-    skEleven: file(relativePath: { eq: "sk11.jpg" }) {
-      ...fluidImage
-    }
   }
 `
