@@ -266,7 +266,7 @@ const otherWorks = props => (
           <HText1
             Header1="Hoodoo"
             Text1="
-            Sand-stone shelter 3D Render"
+            Sand-stone shelter 3D render"
           />
           <br />
           <video
