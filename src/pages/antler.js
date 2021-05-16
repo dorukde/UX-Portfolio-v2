@@ -163,10 +163,10 @@ const antlerPage = props => (
           <Img
             fluid={props.data.antSix.childImageSharp.fluid}
             alt="IA and HMW"
-          />
+          /><br />
           <TextLi TextLi="Firetable’s side-editor, sub-tables feature (arrays, objects inside one cell), import/export features are designed based on Antler team’s data-management requirements." />
           <TextLi TextLi="A library of digital portfolio pages of the startups are directly generated through Antler team’s data-management operations and firetable.io plug-ins." />
-          <TextLi TextLi="The team has developed the capability for all the Antler team members to build forms and work with data on Firetable through firetable.io integration." />
+          <TextLi TextLi="The team has developed the capability for all the Antler team members to build forms and work with data on Firetable through firetable.io integration." /><br />
           <Img
             fluid={props.data.antSeven.childImageSharp.fluid}
             alt="Firetable Mindmap – themes"
@@ -184,25 +184,31 @@ const antlerPage = props => (
           <br />
           <HText1
             Header1="Test - Evaluate"
-            Text1="Usability of the team operations, onboarding of founders and post-investment processes were evaluated through qualitative usability testing methods. Multiple prototyping tools and methods were used based on the usability testing scenario:"/>
+            Text1="Usability of the team operations, onboarding of founders and post-investment processes were evaluated through qualitative usability testing methods. Multiple prototyping tools and methods were used based on the usability testing scenario:"/><br />
           <TextLi TextLi="Understanding the usability based on completing a task (e.g. coaching feedback) – maze.design (and think-aloud)" />
           <TextLi TextLi="Principle, Protopie for micro-interactions" />
           <TextLi TextLi="Field studies (contextual inquiry) for founder experience – contextual impact of physical environment on usability (e.g. usability of remote coaching vs. coaching in-person)" />
           <br />
           <Text2 Text2="Quantitative usability testing was used for the analysis of large-scaled experiences (external web and founder experience) through surveys, analytics (e.g. Google Analytics) and event tracking (user tracking, replays)." /> 
           <Text2 Text2="Evaluation and testing has informed multiple iterations of features on Founder &amp; Team Hub platforms, improving longer time spent in the Hub for founders, adoption of coaching features from the team and a higher engagement to the external platforms (antler.co, demo day event pages)." /> 
-          <br />
           <HText1
             Header1="Conclusions"
             Text1="Antler’s platforms, team operations and global growth provided a unique set of interesting challenges. A diverse group of team members, stakeholders, external users and founders have experienced transitioning into engaging with the program and the platforms remotely. This transition required remote co-design processes and redesign of team operations. As a result, firetable.io has emerged and grown as an interesting open-source project for the global developer community. Designing an open-source project required a more inclusive research process and a more scalable approach to digital product design."
           />
 
-          <br />
           <HText1
             Header1="Further Reading"
             Text1="Another interesting design challenge was to advocate design thinking, usability and improve the UX maturity of the organisation and to introduce UX to founders. I have had the chance to run multiple online presentations and conduct coaching through workshops with founders – as well as writing documentation and an article for the curious founders."
           />
+          <br />
           <TextLi TextLi="A brief introduction to UX for the curious founders (D.Demircioglu)" />
+          <div className="Process">
+          "A brief introduction to UX Design for the curious minds" (D.Demircioglu)
+          </div>
+          <div className="Process">
+          "Firetable in Use: How We Built Our Virtual Live Event Platform With Firestore and Firetable" (S.Alcantara) 
+          </div>
+          
           <TextLi TextLi="Firetable in Use: How We Built Our Virtual Live Event Platform With Firestore and Firetable
  (S.Alcantara)" />
 
