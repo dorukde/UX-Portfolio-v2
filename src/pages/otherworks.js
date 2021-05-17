@@ -100,18 +100,17 @@ const otherWorks = props => (
               </video>
             </div>
           </div>
-          <br />          
+          <br /> 
+          <HText1
+            Header1="Matchapaws: Tangible Interactions"
+            Text1="
+            Matchapaws is a two player guessing game, that was designed (proposed) as an onboarding interaction to take place at Stranger’s Lounge. The lounge is a transitional space that can host 200 visitors with a flow from play to conversations. Through this interaction, we want to introduce NCC’s history to the guests through  meaningful interactions for taking action."
+          />         
           <br />          
           <Img
               fluid={props.data.nCC.childImageSharp.fluid}
               alt="Design Guidebook:"
             />
-          <br />          
-          <HText1
-            Header1="Matchapaws: Tangible Interactions"
-            Text1="
-            Matchapaws is a two player guessing game, that was designed (proposed) as an onboarding interaction to take place at Stranger’s Lounge. The lounge is a transitional space that can host 200 visitors with a flow from play to conversations. Through this interaction, we want to introduce NCC’s history to the guests through  meaningful interactions for taking action."
-          />
           <br />
           <br />
           <HText1
