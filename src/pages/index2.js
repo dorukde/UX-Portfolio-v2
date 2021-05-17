@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div id="Works_id" className="Works">
     <Link to="/antler">
     <Img
-              fluid={props.data.kfOne.childImageSharp.fluid}
-              alt="Keyflow App"
+              fluid={props.data.aBanner.childImageSharp.fluid}
+              alt="Antler"
             />
     <br />         
     <HText1
