@@ -50,7 +50,7 @@ const otherWorks = props => (
       </div>
       <div className="ContentW">
         <div className="Content">
-          
+        
           <HText1
             Header1="Dimmer: Human Centred Design"
             Text1="
@@ -100,6 +100,18 @@ const otherWorks = props => (
               </video>
             </div>
           </div>
+          <br />          
+          <br />          
+          <Img
+              fluid={props.data.nCC.childImageSharp.fluid}
+              alt="Design Guidebook:"
+            />
+          <br />          
+          <HText1
+            Header1="Matchapaws: Tangible Interactions"
+            Text1="
+            Matchapaws is a two player guessing game, that was designed (proposed) as an onboarding interaction to take place at Stranger’s Lounge. The lounge is a transitional space that can host 200 visitors with a flow from play to conversations. Through this interaction, we want to introduce NCC’s history to the guests through  meaningful interactions for taking action."
+          />
           <br />
           <br />
           <HText1
@@ -336,10 +348,7 @@ export default otherWorks
 
 export const pageQuery = graphql`
   query {
-    thomasZero: file(relativePath: { eq: "thomas0.jpg" }) {
-      ...fluidImage640
-    }
-    thomasOne: file(relativePath: { eq: "thomas1.jpg" }) {
+    nCC: file(relativePath: { eq: "ncc.jpg" }) {
       ...fluidImage
     }
     thomasTwo: file(relativePath: { eq: "thomas2.jpg" }) {
