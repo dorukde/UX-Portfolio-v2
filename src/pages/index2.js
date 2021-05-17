@@ -8,13 +8,21 @@ import '../components/header.css'
 const IndexPage = () => (
   <div id="Works_id" className="Works">
     <Link to="/antler">
-      <Project
-        ProjectName="Antler"
-        ProjectDetail="Product Design"
-        ProjectText1=" Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
-        ProjectText2="VIEW PROJECT >"
-      />
+    <Img
+              fluid={props.data.kfOne.childImageSharp.fluid}
+              alt="Keyflow App"
+            />
+    <br />         
+    <HText1
+            Header1="Antler"
+            Text1="Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
+          />{' '}
+          <br />
+          <div className="Process2">  
+          CASE STUDY ⟶
+          </div>
     </Link>
+
 
     <Link to="/strafe">
       <Project
@@ -110,6 +118,13 @@ export const fluidImage480 = graphql`
       fluid(quality: 90, maxWidth: 480) {
         ...GatsbyImageSharpFluid
       }
+    }
+  }
+`
+export const pageQuery = graphql`
+  query {
+    aBanner: file(relativePath: { eq: "antler_banner.jpg" }) {
+      ...fluidImage2
     }
   }
 `

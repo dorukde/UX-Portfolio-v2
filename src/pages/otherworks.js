@@ -104,7 +104,7 @@ const otherWorks = props => (
           <HText1
             Header1="Matchapaws: Tangible Interactions"
             Text1="
-            Matchapaws is a two player guessing game, that was designed (proposed) as an onboarding interaction to take place at Stranger’s Lounge. The lounge is a transitional space that can host 200 visitors with a flow from play to conversations. Through this interaction, we want to introduce NCC’s history to the guests through  meaningful interactions for taking action."
+            Matchapaws is a two player guessing game, that was designed (proposed) as an onboarding interaction to take place at Stranger’s Lounge. The lounge is a transitional space that can host 200 visitors with a flow from play to conversations. Through this interaction, we want to introduce NCC’s history to the guests through  meaningful interactions for taking action (Group project: Dhriti, Boyuan, Hongyu, Doruk)."
           />         
           <br />          
           <Img
