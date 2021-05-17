@@ -5,6 +5,7 @@ import Project from '../components/project'
 import ProjectMini from '../components/projectmini'
 import '../components/header.css'
 import Img from 'gatsby-image'
+import HText1 from '../components/text1'
 
 
 const IndexPage = () => (
