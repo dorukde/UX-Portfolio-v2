@@ -8,7 +8,7 @@ import Img from 'gatsby-image'
 import HText1 from '../components/text1'
 
 
-const IndexPage = () => (
+const IndexPage = props => (
   <div id="Works_id" className="Works">
     <Link to="/antler">
     <Img
