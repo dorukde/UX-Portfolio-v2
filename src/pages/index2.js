@@ -4,6 +4,8 @@ import { Link, graphql } from 'gatsby'
 import Project from '../components/project'
 import ProjectMini from '../components/projectmini'
 import '../components/header.css'
+import Img from 'gatsby-image'
+
 
 const IndexPage = () => (
   <div id="Works_id" className="Works">
