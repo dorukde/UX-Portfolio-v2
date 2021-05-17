@@ -205,7 +205,6 @@ const antlerPage = props => (
           <TextLi TextLi="Understanding the usability based on completing a task (e.g. coaching feedback) – maze.design (and think-aloud)" />
           <TextLi TextLi="Principle, Protopie for micro-interactions" />
           <TextLi TextLi="Field studies (contextual inquiry) for founder experience – contextual impact of physical environment on usability (e.g. usability of remote coaching vs. coaching in-person)" />
-          <br />
           <Text2 Text2="Quantitative usability testing was used for the analysis of large-scaled experiences (external web and founder experience) through surveys, analytics (e.g. Google Analytics) and event tracking (user tracking, replays)." /> 
           <Text2 Text2="Evaluation and testing has informed multiple iterations of features on Founder &amp; Team Hub platforms, improving longer time spent in the Hub for founders, adoption of coaching features from the team and a higher engagement to the external platforms (antler.co, demo day event pages)." /> 
           <HText1
