@@ -127,7 +127,7 @@ export const fluidImage480 = graphql`
 export const pageQuery = graphql`
   query {
     aBanner: file(relativePath: { eq: "antler_banner.jpg" }) {
-      ...fluidImage2
+      ...fluidImage
     }
   }
 `
