@@ -15,7 +15,6 @@ const IndexPage = props => (
               fluid={props.data.aBanner.childImageSharp.fluid}
               alt="Antler"
             />
-    <br />         
     <HText1
             Header1="Antler"
             Text1="Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
