@@ -38,7 +38,7 @@ const otherWorks = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Personal Projects</div>
+            <div className="ProjectName2">PERSONAL PROJECTS</div>
             <div className="ProjectDetail2">HCD, 3D, Print</div>
             <div className="ProjectDescription">
               My personal visual design projects - including UI, a short

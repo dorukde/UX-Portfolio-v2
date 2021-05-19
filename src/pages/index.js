@@ -1,64 +1,132 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Project from '../components/project'
-import ProjectMini from '../components/projectmini'
+import '../components/flexmenu.css'
 import '../components/header.css'
 
-const IndexPage = () => (
-  <div id="Works_id" className="Works">
-    <Link to="/antler">
-      <Project
-        ProjectName="Antler"
-        ProjectDetail="Product Design"
-        ProjectText1=" Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
-        ProjectText2="VIEW PROJECT >"
-      />
-    </Link>
+import Img from 'gatsby-image'
+import FlexMenu from '../components/flexmenu'
+import Scroller from '../components/scrollP'
 
+
+const IndexPage = props => (
+  <div className="ContentW">
+  <div className="Content">
+  <div id="rect">
+  <Scroller />
+
+  <h6>
+            <br />
+            <br />
+            <br />
+            <br />
+            Hi, This is Doruk.
+            <br /><br />
+            I'm a digital product designer based in Sydney{' '}
+            <span role="img" aria-label="koala">
+              🐨
+            </span>
+            <br />            
+            focused on building inclusive &amp; accessible products.<br />             
+            <Link to="/about"><div className="flexButton">ABOUT ME ⟶</div></Link> <br /> 
+            <br /> 
+            <br /> 
+            </h6>
+            
+          
+  <br />
+ 
+  <Link to="/antler">
+
+<Img
+              fluid={props.data.aBanner.childImageSharp.fluid}
+              alt="Strafe"
+            />
+    <FlexMenu
+            flexOverline="PRODUCT DESIGN"
+            flexTitle="ANTLER"
+            flexDetails="Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
+            flexButton="CASE STUDY ⟶"
+          />{' '}
+    </Link>
+<br />
+<br />
     <Link to="/strafe">
-      <Project
-        ProjectName="Strafe"
-        ProjectDetail="UX-UI"
-        ProjectText1=" Strafe is the first esports tracking App for iOS and Android.
+    <Img
+              fluid={props.data.sBanner.childImageSharp.fluid}
+              alt="Strafe"
+            />
+    <FlexMenu
+            flexOverline="UX-UI"
+            flexTitle="STRAFE"
+            flexDetails="Strafe is the first esports tracking App for iOS and Android.
             Strafe provides a gamified experience with results, schedules,
             tournament info &amp; statistics for major esports titles."
-        ProjectText2="VIEW PROJECT >"
-      />
+            flexButton="CASE STUDY ⟶"
+          />{' '}
     </Link>
-
+    <br />
+    <br />
     <Link to="/keyflow">
-      <Project
-        ProjectName="Keyflow"
-        ProjectDetail="UX-UI"
-        ProjectText1="Keyflow, headquartered in Stockholm (SE), is an event service solution for both event producers and guests around the globe."
-        ProjectText2="VIEW PROJECT >"
-      />
+    <Img
+              fluid={props.data.kBanner.childImageSharp.fluid}
+              alt="Keyflow"
+            />
+    <FlexMenu
+            flexOverline="UX-UI"
+            flexTitle="KEYFLOW"
+            flexDetails="Keyflow, headquartered in Stockholm (SE), is an event services solution for both event producers and guests around the globe.
+            "
+            flexButton="CASE STUDY ⟶"
+          />{' '}
     </Link>
-
+    <br />
+    <br /> 
     <Link to="/keyflowbusiness">
-      <Project
-        ProjectName="Keyflow Business"
-        ProjectDetail="UX-UI"
-        ProjectText1=" Keyflow Business, is the solution for pre-event and real-time guest
-            list management of each event of a nightclub. It features guest-list
-            management, offline support, real-time request handling for venue producers and teams."
-        ProjectText2="VIEW PROJECT >"
-      />
+    <Img
+              fluid={props.data.kbBanner.childImageSharp.fluid}
+              alt="Keyflow Business"
+            />
+    <FlexMenu
+            flexOverline="UX-UI"
+            flexTitle="KEYFLOW BUSINESS"
+            flexDetails="Keyflow Business, is the solution for pre-event and real-time guest list management of each event of a nightclub. It features guest-list management, offline support, real-time request handling, considering the goals of venue producers and their teams."
+            flexButton="CASE STUDY ⟶"
+          />{' '}
     </Link>
-
+    <br />
+    <br /> 
     <Link to="/streetkak">
-      <Project
-        ProjectName="Streetkäk"
-        ProjectDetail="Product Design"
-        ProjectText1="Inspired by the growing streed food culture in Scandinavia and legendary Citroen H Van - Streetkäk is the first App to locate food trucks and street food vendors real-time, in the Nordic countries."
-        ProjectText2="VIEW PROJECT >"
-      />
+    <Img
+              fluid={props.data.skBanner.childImageSharp.fluid}
+              alt="Streetkäk"
+            />
+    <FlexMenu
+            flexOverline="PRODUCT DESIGN"
+            flexTitle="STREETKÄK"
+            flexDetails="Inspired by the growing street food culture in Scandinavia, and legendary Citroen H Van. Streetkäk is the first App to locate food trucks and other street food vendors in real time, in the Nordic countries such as Sweden, Denmark, Norway and Finland."
+            flexButton="CASE STUDY ⟶"
+          />{' '}
     </Link>
+    <br />
+    <br /> 
     <Link to="/otherworks">
-      <ProjectMini ProjectName="— Personal" ProjectDetail="HCD, 3D, Print" />
+    <Img
+              fluid={props.data.ppBanner.childImageSharp.fluid}
+              alt="Personal Projects"
+            />
+    <FlexMenu
+            flexOverline="HCD, IxD, 3D, PRINT"
+            flexTitle="PERSONAL"
+            flexDetails="My personal design projects - including Interaction Design, Wearables, UI, Human Centred Product Design concept, 3D, Album Covers, Live Illustration and Print Design"
+            flexButton="VIEW PROJECTS ⟶"
+          />{' '}
     </Link>
+    <br />
   </div>
+  </div>
+  </div>
+
 )
 
 export default IndexPage
@@ -113,3 +181,26 @@ export const fluidImage480 = graphql`
     }
   }
 `
+export const pageQuery = graphql`
+  query {
+    aBanner: file(relativePath: { eq: "antler_banner.jpg" }) {
+      ...fluidImage
+    }
+    kBanner: file(relativePath: { eq: "kf_banner.jpg" }) {
+      ...fluidImage
+    }
+    sBanner: file(relativePath: { eq: "strafe_banner.jpg" }) {
+      ...fluidImage
+    }
+    kbBanner: file(relativePath: { eq: "kf_business_banner.jpg" }) {
+      ...fluidImage
+    } 
+    skBanner: file(relativePath: { eq: "streetkak_banner.jpg" }) {
+      ...fluidImage
+    }
+    ppBanner: file(relativePath: { eq: "personal_banner.jpg" }) {
+      ...fluidImage
+    }
+  }
+`
+

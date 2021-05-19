@@ -21,7 +21,7 @@ const antlerPage = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Antler</div>
+            <div className="ProjectName2">ANTLER</div>
             <div className="ProjectDetail2">Product Design</div>
           </div>
           <div className="ProjectDescription">

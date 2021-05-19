@@ -31,7 +31,7 @@ const strafePage = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Strafe</div>
+            <div className="ProjectName2">STRAFE</div>
             <div className="ProjectDetail2">UX-UI</div>
           </div>
           <div className="ProjectDescription">

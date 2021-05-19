@@ -82,11 +82,7 @@ const Layout = ({ children, data, location }) => (
           {location.pathname === '/' && (
             <Header siteTitle={data.site.siteMetadata.title} />
           )}
-           {(location.pathname === '/index2/' ||
-            location.pathname === '/index2') && (
-            <Header3 siteTitle={data.site.siteMetadata.title} />
-          )}
-
+           
           {children}
 
           {location.pathname === '/' && <Footer />}

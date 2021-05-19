@@ -2,8 +2,10 @@
   width: 100%;
   padding: 0 0;
   z-index: 100;
-  background-color: #fff1f1;
+  background-color: #f5e3e3;
   height: 3em;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
 }
 
 .Header a {
