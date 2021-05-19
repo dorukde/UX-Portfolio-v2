@@ -5,6 +5,8 @@ import '../components/flexmenu.css'
 import '../components/header.css'
 import Img from 'gatsby-image'
 import FlexMenu from '../components/flexmenu'
+import Scroller from '../components/scrollP'
+
 
 const IndexPage = props => (
   <div className="ContentW">
