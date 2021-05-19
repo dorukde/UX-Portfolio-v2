@@ -4,13 +4,13 @@ import { Link, graphql } from 'gatsby'
 import '../components/flexmenu.css'
 import '../components/header.css'
 import Img from 'gatsby-image'
-import FProject from '../components/flexmenu'
+import FlexMenu from '../components/flexmenu'
 
 const IndexPage = props => (
   <div className="ContentW">
   <div className="Content">
 <Link to="/antler">
-    <fProject
+    <FlexMenu
             flexOverline="Product Design"
             flexTitle="Antler"
             flexDetails="Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
@@ -24,7 +24,7 @@ const IndexPage = props => (
               alt="Strafe"
             />
     <Link to="/strafe">
-    <fProject
+    <FlexMenu
             flexOverline="UX-UI"
             flexTitle="Strafe"
             flexDetails="Strafe is the first esports tracking App for iOS and Android.
