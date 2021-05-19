@@ -15,24 +15,24 @@ const IndexPage = props => (
   <div id="rect">
   <Scroller />
 
+<div className="flexDiv">
   <h6>
             <br />
             <br />
             <br />
             <br />
-            Hi, This is Doruk.
+            Hi, This is Doruk
             <br /><br />
             I'm a digital product designer based in Sydney{' '}
             <span role="img" aria-label="koala">
               🐨
             </span>
             <br />            
-            focused on building inclusive &amp; accessible products.<br />             
-            <Link to="/about"><div className="flexButton">ABOUT ME ⟶</div></Link> <br /> 
+            focused on building inclusive &amp; accessible products through systems thinking, mixed methods, co-design, sustainability to co-build scalable solutions.<br />                          
             <br /> 
             <br /> 
             </h6>
-            
+  </div>          
           
   <br />
  

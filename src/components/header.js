@@ -9,12 +9,13 @@ const Header = ({ siteTitle }) => (
         <Link to="/">Doruk Demircioglu</Link>
       </div>
       <nav className="navo">
+      <Link to="/" id="selected">
+          WORKS
+        </Link>
         <Link to="/about" id="other">
           ABOUT
         </Link>
-        <Link to="/" id="selected">
-          WORKS
-        </Link>
+
       </nav>
     </div>
   </div>
