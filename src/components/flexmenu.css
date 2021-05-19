@@ -1,6 +1,4 @@
-.flexMenu {
-  -webkit-font-smoothing: antialiased;  
-}
+
 
 .flexDiv {
   -webkit-font-smoothing: antialiased;  
@@ -49,8 +47,16 @@ line-height: 1.5em;
   -webkit-font-smoothing: antialiased;  
 }
 
+.flexMenu {
+  display: flex;
+  flex-direction: row;
+}
 
 @media (max-width: 960px) {
+
+  .flexMenu {
+    flex-direction: column;
+  }
 
 }
 @media (max-width: 640px) {
