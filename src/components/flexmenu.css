@@ -1,7 +1,7 @@
 
 
 .flexDiv {
-  -webkit-font-smoothing: antialiased;  
+  width: 50%; 
 }
 
 .flexOverline {
@@ -56,6 +56,10 @@ line-height: 1.5em;
 
   .flexMenu {
     flex-direction: column;
+  }
+  
+  .flexDiv {
+    width: 100%; 
   }
 
 }

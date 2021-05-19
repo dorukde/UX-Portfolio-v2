@@ -9,7 +9,6 @@ const FlexMenu = props => (
     </div>
     <div className="flexDiv">
       <div className="flexDetails">{props.flexDetails}</div>
-      <br/>
       <div className="flexButton">{props.flexButton}</div>
     </div>
   </div>
