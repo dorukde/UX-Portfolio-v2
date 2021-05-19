@@ -11,10 +11,6 @@ const IndexPage = props => (
   <div className="ContentW">
   <div className="Content">
 <Link to="/antler">
-    <Img
-              fluid={props.data.aBanner.childImageSharp.fluid}
-              alt="Antler"
-            />
     <fProject
             flexOverline="Product Design"
             flexTitle="Antler"
@@ -23,11 +19,12 @@ const IndexPage = props => (
           />{' '}
     </Link>
 
-    <Link to="/strafe">
+
     <Img
               fluid={props.data.aBanner.childImageSharp.fluid}
               alt="Strafe"
             />
+    <Link to="/strafe">
     <fProject
             flexOverline="UX-UI"
             flexTitle="Strafe"
