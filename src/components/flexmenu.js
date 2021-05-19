@@ -1,7 +1,7 @@
 import React from 'react'
 import './flexmenu.css'
 
-const FProject = props => (
+const FlexMenu = props => (
   <div className="flexMenu">
     <div className="flexDiv">
       <div className="flexOverline">{props.flexOverline}</div>
@@ -14,4 +14,4 @@ const FProject = props => (
   </div>
 )
 
-export default FProject
+export default FlexMenu
