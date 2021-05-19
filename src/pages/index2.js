@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 
 import '../components/flexmenu.css'
-import '../components/header.css'
+//import '../components/header.css'
 import Img from 'gatsby-image'
 import FlexMenu from '../components/flexmenu'
 import Scroller from '../components/scrollP'
