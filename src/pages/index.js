@@ -50,6 +50,7 @@ const IndexPage = props => (
           />{' '}
     </Link>
 <br />
+<br />            
 <br />
     <Link to="/strafe">
     <Img
@@ -67,6 +68,7 @@ const IndexPage = props => (
     </Link>
     <br />
     <br />
+    <br />            
     <Link to="/keyflow">
     <Img
               fluid={props.data.kBanner.childImageSharp.fluid}
@@ -82,6 +84,7 @@ const IndexPage = props => (
     </Link>
     <br />
     <br /> 
+    <br />            
     <Link to="/keyflowbusiness">
     <Img
               fluid={props.data.kbBanner.childImageSharp.fluid}
@@ -94,6 +97,7 @@ const IndexPage = props => (
             flexButton="CASE STUDY ⟶"
           />{' '}
     </Link>
+    <br />            
     <br />
     <br /> 
     <Link to="/streetkak">
@@ -110,6 +114,8 @@ const IndexPage = props => (
     </Link>
     <br />
     <br /> 
+    <br />   
+             
     <Link to="/otherworks">
     <Img
               fluid={props.data.ppBanner.childImageSharp.fluid}
