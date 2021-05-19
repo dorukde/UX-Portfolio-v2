@@ -13,7 +13,6 @@ const IndexPage = props => (
   <div className="Content">
   <div id="rect">
   <Scroller />
-
   <Link to="/antler">
 <Img
               fluid={props.data.aBanner.childImageSharp.fluid}
