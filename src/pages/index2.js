@@ -11,14 +11,14 @@ const IndexPage = props => (
   <div className="Content">
 <Link to="/antler">
     <FlexMenu
-            flexOverline="Product Design"
-            flexTitle="Antler"
+            flexOverline="PRODUCT DESIGN"
+            flexTitle="ANTLER"
             flexDetails="Antler is a global early-stage VC &amp; accelerator, scaling with a lean, participatory, founder-centred approach. Antler’s platforms for the team, the founders and the portfolio companies require an adaptive and collaborative approach to solving problems."
             flexButton="CASE STUDY ⟶"
           />{' '}
     </Link>
-
-
+<br />
+<br />
     <Img
               fluid={props.data.aBanner.childImageSharp.fluid}
               alt="Strafe"

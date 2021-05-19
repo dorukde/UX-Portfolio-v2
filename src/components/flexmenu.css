@@ -1,10 +1,9 @@
 .flexMenu {
-  font-size: 0.75em;
+  -webkit-font-smoothing: antialiased;  
 }
 
 .flexDiv {
-  font-size: 0.75em;
-
+  -webkit-font-smoothing: antialiased;  
 }
 
 .flexOverline {
@@ -12,6 +11,7 @@
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
   font-size: 0.75em;
+  line-height: 1.25em;
   color: #857d7d;
   -webkit-font-smoothing: antialiased;  
 }
