@@ -9,6 +9,8 @@ import FlexMenu from '../components/flexmenu'
 const IndexPage = props => (
   <div className="ContentW">
   <div className="Content">
+  <div id="rect">
+  <Scroller />
 <Link to="/antler">
     <FlexMenu
             flexOverline="PRODUCT DESIGN"
@@ -33,6 +35,7 @@ const IndexPage = props => (
             flexButton="CASE STUDY ⟶"
           />{' '}
     </Link>
+  </div>
   </div>
   </div>
 
