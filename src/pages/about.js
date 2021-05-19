@@ -26,6 +26,7 @@ const AboutPage = () => (
         <div className="About">
           <div id="AnimateImage" />
           <h4>
+            Hi, This is Doruk [door-ok],
             <br />
             I'm a digital product designer based in Sydney{' '}
             <span role="img" aria-label="koala">
