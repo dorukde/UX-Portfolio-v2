@@ -7,7 +7,6 @@ import Img from 'gatsby-image'
 import FProject from '../components/flexmenu'
 
 const IndexPage = props => (
-
   <div className="ContentW">
   <div className="Content">
 <Link to="/antler">
