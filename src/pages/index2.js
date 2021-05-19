@@ -7,8 +7,10 @@ import Img from 'gatsby-image'
 import FProject from '../components/flexmenu'
 
 const IndexPage = props => (
-  <div>
-    <Link to="/antler">
+
+  <div className="ContentW">
+  <div className="Content">
+<Link to="/antler">
     <Img
               fluid={props.data.aBanner.childImageSharp.fluid}
               alt="Antler"
@@ -36,6 +38,8 @@ const IndexPage = props => (
           />{' '}
     </Link>
   </div>
+  </div>
+
 )
 
 export default IndexPage
