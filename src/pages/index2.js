@@ -163,45 +163,30 @@ export const pageQuery = graphql`
       ...fluidImage
     }
   }
-`
-export const pageQuery = graphql`
-  query {
-    sBanner: file(relativePath: { eq: "strafe_banner.jpg" }) {
-      ...fluidImage
-    }
-  }
-`
-
-export const pageQuery = graphql`
   query {
     kBanner: file(relativePath: { eq: "kf_banner.jpg" }) {
       ...fluidImage
     }
   }
-`
-
-
-export const pageQuery = graphql`
+  query {
+    sBanner: file(relativePath: { eq: "strafe_banner.jpg" }) {
+      ...fluidImage
+    }
+  }
   query {
     kbBanner: file(relativePath: { eq: "kf_business_banner.jpg" }) {
       ...fluidImage
     }
   }
-`
-
-
-export const pageQuery = graphql`
   query {
     skBanner: file(relativePath: { eq: "streetkak_banner.jpg" }) {
       ...fluidImage
     }
   }
-`
-
-export const pageQuery = graphql`
   query {
     ppBanner: file(relativePath: { eq: "personal_banner.jpg" }) {
       ...fluidImage
     }
   }
 `
+
