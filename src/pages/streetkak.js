@@ -21,7 +21,7 @@ const skakPage = props => (
       <div className="AboutW">
         <div className="AboutProject">
           <div className="ProjectTitle">
-            <div className="ProjectName2">Streetkäk</div>
+            <div className="ProjectName2">STREETKÄK</div>
             <div className="ProjectDetail2">Product Design</div>
           </div>
           <div className="ProjectDescription">
