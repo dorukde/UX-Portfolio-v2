@@ -37,7 +37,6 @@ const IndexPage = props => (
   <br />
  
   <Link to="/antler">
-
 <Img
               fluid={props.data.aBanner.childImageSharp.fluid}
               alt="Strafe"
