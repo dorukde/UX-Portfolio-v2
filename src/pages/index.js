@@ -8,7 +8,6 @@ import Img from 'gatsby-image'
 import FlexMenu from '../components/flexmenu'
 import Scroller from '../components/scrollP'
 
-
 const IndexPage = props => (
   <div className="ContentW">
   <div className="Content">
@@ -32,8 +31,7 @@ const IndexPage = props => (
             <br /> 
             <br /> 
             </h6>
-  </div>          
-          
+  </div>                   
   <br />
  
   <Link to="/antler">
