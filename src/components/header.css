@@ -22,7 +22,7 @@
 
 .home {
   margin: 0 auto;
-  padding: 1em 0 0 1.75em;
+  padding: 1em 0 0 0em;
   font-size: 1em;
   float: left;
 }
@@ -82,9 +82,17 @@
   right: 0%;
 }
 
+
+@media (max-width: 1030px) {
+  .home a {
+    padding: 1em 0 0 2em;
+  }
+}
+
 @media (max-width: 640px) {
   .home a {
     font-size: 0.8em;
+    padding: 1em 0 0 1.75em;
   }
 
   .navo {

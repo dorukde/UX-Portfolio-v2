@@ -21,7 +21,7 @@
 
 .home3 {
   margin: 0 auto;
-  padding: 1em 0 0 1.75em;
+  padding: 1em 0 0 0em;
   font-size: 1em;
   float: left;
 }
@@ -58,6 +58,12 @@
 .navo3 a:hover::after {
   left: 42%;
   right: 0%;
+}
+
+@media (max-width: 1030px) {
+  .home3 a {
+    padding: 1em 0 0 2em;
+  }
 }
 
 @media (max-width: 640px) {
