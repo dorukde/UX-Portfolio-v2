@@ -69,7 +69,6 @@ const antlerPage = props => (
             Header1="Antler VC &amp; Digital Platforms"
             Text1="Antler's digital platforms are designed to facilitate scalable solutions, highly participatory and integrated processes, running on a design system and an open-source project (firetable.io). My responsibility area covers an end-to-end design process, involving qualitative and quantitative research, facilitating co-design (building IA, journey mapping), collaborating with a lean-agile software development team, running usability testing at various scales and coaching portfolio companies."
           />
-          <Text2 Text2="Streetkäk's visual language has been crafty and humanistic, with a team having a complete 'DIY' approach. After having collaborated with the food-truck chefs and observing their interaction with the community, the visual language has shaped as  crafty, custom and 'humanist', as tech-savvy as greasy hands and a hungry mind." />
           <br />
           <div className="gatsby-image-wrapper2">
             <Img
