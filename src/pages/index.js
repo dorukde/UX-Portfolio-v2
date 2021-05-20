@@ -19,7 +19,6 @@ const IndexPage = props => (
             <br />
             <br />
             <br />
-            <br />
             Hi, This is Doruk
             <br /><br />
             I'm a digital product designer based in Sydney{' '}
@@ -32,7 +31,6 @@ const IndexPage = props => (
             <br /> 
             </h6>
   </div>                   
-  <br />
  
   <Link to="/antler">
 <Img
