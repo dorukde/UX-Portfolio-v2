@@ -67,13 +67,23 @@ padding-top: 1em;
   line-height: 1,5em;
   color: #333030;
   -webkit-font-smoothing: antialiased;  
+  opacity: 0.3;  
+  transition: 0.3s;
 }
+
 
 .flexMenu {
   display: flex;
   flex-direction: row;
   padding-top: 0.5em;
+  transition: .3s;
 }
+
+
+.flexMenu:hover .flexButton {
+  opacity: 1;
+}
+
 
 @media (max-width: 960px) {
 
